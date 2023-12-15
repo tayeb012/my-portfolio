@@ -1,13 +1,14 @@
 import { PiStudentDuotone } from "react-icons/pi";
 import { SiSololearn } from "react-icons/si";
+import SectionHeader from "../../CommonSection/SectionHeader";
 
 const About = () => {
   return (
-    <div className="my-20">
-      <section className="my-32 text-center">
-        <h5>Get To Know More</h5>
-        <h2 className="text-5xl font-semibold">About Me</h2>
-      </section>
+    <div id="about" className="my-20">
+      <SectionHeader
+        subTittle={`Get To Know More`}
+        tittle={`About Me`}
+      ></SectionHeader>
       <section className="flex gap-20 items-center justify-center">
         <img
           className="w-8/12 rounded-badge"

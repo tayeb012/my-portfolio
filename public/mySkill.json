@@ -1,0 +1,31 @@
+[
+  {
+    "name": "HTML",
+    "level": "Experienced"
+  },
+  {
+    "name": "CSS",
+    "level": "Experienced"
+  },
+  {
+    "name": "Tailwind",
+    "level": "Intermediate"
+  },
+  {
+    "name": "JavaScript",
+    "level": "Basic"
+  },
+  {
+    "name": "ReactJs",
+    "level": "Basic"
+  },
+  {
+    "name": "TanStack Query",
+    "level": "Basic"
+  },
+  
+  {
+    "name": "Material UI",
+    "level": "Intermediate"
+  }
+]

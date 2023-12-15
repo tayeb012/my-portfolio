@@ -4,8 +4,17 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   const myImage = `https://i.ibb.co/n7PsPSQ/TAYEB-DSC-0163.jpg`;
 
+  const handleDownload = () => {
+    const resumeUrl =
+      "https://cdn.fbsbx.com/v/t59.2708-21/411024448_375297624938827_2397820206314469439_n.pdf/Tayeb-Hossan-Resume.pdf?_nc_cat=102&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeEQtPOh0udU524ynVAK69pA-reV-UxbEwb6t5X5TFsTBiVLy26emxCHook7eYg9nqFvD4CXeAZnTHoWWZODUPc6&_nc_ohc=4etoI26gKesAX_4aSbv&_nc_ht=cdn.fbsbx.com&oh=03_AdTAqy_rX6onCZROThK_gVehDL2oSIzhjpNF_av6395tsA&oe=657DEE25&dl=1"; // Replace with the actual path to your resume file
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "tayeb_hossan_resume.pdf"; // You can customize the downloaded file name
+    link.click();
+  };
+
   return (
-    <div className="py-32 ">
+    <div className="py-32">
       <div className="flex items-center justify-center">
         <section className=" flex justify-center items-center ">
           <img
@@ -19,18 +28,25 @@ const Banner = () => {
           <h2 className="text-5xl">Tayeb Hossan</h2>
           <h3 className="text-3xl text-[#0e0e0e9c]">Frontend Developer</h3>
           <section className="flex gap-4">
-            <button className="btn hover:border-slate-700 rounded-full border-black hover:bg-slate-700 hover:text-white">
+            <button
+              onClick={handleDownload}
+              className="btn hover:border-slate-700 rounded-full border-black hover:bg-slate-700 hover:text-white"
+            >
               Download CV
-            </button>
-            <button className="btn rounded-full hover:bg-black bg-slate-700 border-none text-white">
-              Contact Info
             </button>
           </section>
           <section className="flex gap-4 text-5xl">
-            <FaGithubSquare />
+            <Link
+              to={`https://github.com/tayeb012`}
+              target="_blank"
+              className="hover:scale-105"
+            >
+              <FaGithubSquare />
+            </Link>
             <Link
               to={`https://www.instagram.com/____repulsion____/`}
               target="_blank"
+              className="hover:scale-105"
             >
               <FaInstagramSquare />
             </Link>

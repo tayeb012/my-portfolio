@@ -1,14 +1,22 @@
 import React from "react";
 
+export const Links = (
+  <>
+    <li>
+      <a href="#about">About</a>
+    </li>
+    <li>
+      <a href="#mySkill">My Skill</a>
+    </li>
+    <li>
+      <a href="#project">Project</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </>
+);
 const NavBer = () => {
-  const Links = (
-    <>
-      <li id="about">About</li>
-      <li id="portfolio">Project</li>
-      <li id="skill">Skill</li>
-      <li id="contact">Contact</li>
-    </>
-  );
   return (
     <div className="flex justify-between text-4xl">
       <h2>Portfolio</h2>
@@ -20,5 +28,3 @@ const NavBer = () => {
 };
 
 export default NavBer;
-
-// git remote add origin https://github.com/tayeb012/contest-craft.git
