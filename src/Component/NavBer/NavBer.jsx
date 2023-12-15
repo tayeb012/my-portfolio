@@ -16,7 +16,7 @@ export const Links = (
     </li>
   </>
 );
-const NavBer = () => {
+const Navber = () => {
   return (
     <div className="flex justify-between text-4xl">
       <h2>Portfolio</h2>
@@ -27,4 +27,4 @@ const NavBer = () => {
   );
 };
 
-export default NavBer;
+export default Navber;
