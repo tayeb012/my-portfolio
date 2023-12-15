@@ -7,7 +7,7 @@ const Footers = () => {
       <Footer container>
         <Footer.Copyright href="#" by="Tayeb Hossan™" year={2022} />
         <Footer.LinkGroup>
-        <ul className="flex gap-10">{Links}</ul>
+          <ul className="flex gap-10">{Links}</ul>
         </Footer.LinkGroup>
       </Footer>
     </div>
