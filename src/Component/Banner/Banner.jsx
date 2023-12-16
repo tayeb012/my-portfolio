@@ -14,8 +14,8 @@ const Banner = () => {
   };
 
   return (
-    <div className="py-32">
-      <div className="flex items-center justify-center">
+    <div className="py-10 sm:py-20 md:py-32">
+      <div className="flex flex-col md:flex-row items-center justify-center">
         <section className=" flex justify-center items-center ">
           <img
             className="rounded-full h-3/5 w-3/5"
@@ -23,10 +23,10 @@ const Banner = () => {
             alt="myImage"
           />
         </section>
-        <section className="font-semibold flex flex-col gap-6 items-center justify-center text-center">
+        <section className="font-semibold flex flex-col gap-2 sm:gap-6 items-center justify-center text-center">
           <h4 className="text-lg text-[#0e0e0e9c]">Hey, This is</h4>
-          <h2 className="text-5xl">Tayeb Hossan</h2>
-          <h3 className="text-3xl text-[#0e0e0e9c]">Frontend Developer</h3>
+          <h2 className="text-3xl sm:text-5xl">Tayeb Hossan</h2>
+          <h3 className="text-2xl sm:text-3xl text-[#0e0e0e9c]">Frontend Developer</h3>
           <section className="flex gap-4">
             <button
               onClick={handleDownload}

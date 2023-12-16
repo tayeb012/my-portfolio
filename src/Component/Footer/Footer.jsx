@@ -6,8 +6,8 @@ const Footers = () => {
     <div className="mt-10">
       <Footer container>
         <Footer.Copyright href="#" by="Tayeb Hossan™" year={2022} />
-        <Footer.LinkGroup>
-          <ul className="flex gap-10">{Links}</ul>
+        <Footer.LinkGroup className="justify-center">
+          <ul className="flex flex-wrap gap-4 lg:gap-6 xl:gap-10">{Links}</ul>
         </Footer.LinkGroup>
       </Footer>
     </div>

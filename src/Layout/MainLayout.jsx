@@ -9,7 +9,7 @@ import Projects from "../Component/Projects/Projects";
 
 const MainLayout = () => {
   return (
-    <div className="px-32 py-10">
+    <div className="lg:px-28 md:px-16 sm:px-12 px-6 sm:py-10 py-6">
       <Navber></Navber>
       <Banner></Banner>
       <About></About>

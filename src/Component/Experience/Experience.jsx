@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div id="mySkill">
       <SectionHeader subTittle={`Explore`} tittle={`My Skill`}></SectionHeader>
-      <section className="flex gap-10">
+      <section className="flex flex-wrap gap-10 text-center">
         <div className="border w-full p-10 border-black flex gap-2 flex-col justify-center items-center text-3xl rounded-badge">
           <h2>Frontend Development</h2>
           <div className="mt-5 flex justify-center gap-8 flex-wrap">

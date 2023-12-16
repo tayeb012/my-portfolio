@@ -11,7 +11,8 @@ const Projects = () => {
         subTittle={`Browse My Recent`}
         tittle={`Project`}
       ></SectionHeader>
-      <section className="flex justify-between">
+      
+      <section className="grid justify-center lg:grid-cols-2 xl:grid-cols-3 gap-10 ">
         <Card
           className="max-w-sm"
           renderImage={() => (
@@ -89,7 +90,7 @@ const Projects = () => {
             Chic Style Project
           </h5>
           <div className="flex justify-between">
-            <Link to={``} target="_blank" className="btn">
+            <Link className="btn">
               <FaGithub /> View Code
             </Link>
             <Link
