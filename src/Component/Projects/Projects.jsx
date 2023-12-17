@@ -11,7 +11,7 @@ const Projects = () => {
         subTittle={`Browse My Recent`}
         tittle={`Project`}
       ></SectionHeader>
-      
+
       <section className="grid justify-center lg:grid-cols-2 xl:grid-cols-3 gap-10 ">
         <Card
           className="max-w-sm"
@@ -29,7 +29,7 @@ const Projects = () => {
           </h5>
           <div className="flex justify-between">
             <Link
-              to={`https://github.com/programming-hero-web-course1/b8a12-client-side-tayeb012`}
+              to={`https://github.com/tayeb012/contest-platform-client`}
               target="_blank"
               className="btn"
             >

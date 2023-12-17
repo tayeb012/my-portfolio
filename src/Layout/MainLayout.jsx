@@ -4,6 +4,7 @@ import Contact from "../Component/Contact/Contact";
 import Experience from "../Component/Experience/Experience";
 import Footers from "../Component/Footer/Footer";
 import Navber from "../Component/Navber/Navber";
+// import Navber from "../Component/Navber/Navber";
 
 import Projects from "../Component/Projects/Projects";
 
