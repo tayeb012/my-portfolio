@@ -1,6 +1,6 @@
-import React from "react";
+import { useState } from "react";
 
-const NavBer1 = () => {
+const Novo = () => {
   const [clops, setClops] = useState(false);
   const links = (
     <>
@@ -51,4 +51,4 @@ const NavBer1 = () => {
   );
 };
 
-export default NavBer1;
+export default Novo;
