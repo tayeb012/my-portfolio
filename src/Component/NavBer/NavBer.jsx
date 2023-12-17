@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaRegWindowClose } from "react-icons/fa";
 import { IoReorderThreeOutline } from "react-icons/io5";
-import NavLink from "../../CommonSection/NavLink/NavLink";
 
 // export const Links = (
 //   <>

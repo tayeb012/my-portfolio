@@ -32,7 +32,7 @@ const Banner = () => {
               onClick={handleDownload}
               className="btn hover:border-slate-700 rounded-full border-black hover:bg-slate-700 hover:text-white"
             >
-              Download CV
+              Download Resume
             </button>
           </section>
           <section className="flex gap-4 text-5xl">
