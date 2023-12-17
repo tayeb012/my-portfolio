@@ -90,7 +90,10 @@ const Projects = () => {
             Chic Style Project
           </h5>
           <div className="flex justify-between">
-            <Link className="btn">
+            <Link
+              to={`https://github.com/tayeb012/Fashion-and-Apparel-client`}
+              className="btn"
+            >
               <FaGithub /> View Code
             </Link>
             <Link
