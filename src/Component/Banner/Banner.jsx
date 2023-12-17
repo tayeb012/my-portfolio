@@ -6,7 +6,7 @@ const Banner = () => {
 
   const handleDownload = () => {
     const resumeUrl =
-      "https://cdn.fbsbx.com/v/t59.2708-21/411024448_375297624938827_2397820206314469439_n.pdf/Tayeb-Hossan-Resume.pdf?_nc_cat=102&ccb=1-7&_nc_sid=2b0e22&_nc_eui2=AeEQtPOh0udU524ynVAK69pA-reV-UxbEwb6t5X5TFsTBiVLy26emxCHook7eYg9nqFvD4CXeAZnTHoWWZODUPc6&_nc_ohc=4etoI26gKesAX_4aSbv&_nc_ht=cdn.fbsbx.com&oh=03_AdTAqy_rX6onCZROThK_gVehDL2oSIzhjpNF_av6395tsA&oe=657DEE25&dl=1"; // Replace with the actual path to your resume file
+      "https://word-edit.officeapps.live.com/we/WordViewer/request.pdf?WOPIsrc=https%3A%2F%2Fwopi%2Eonedrive%2Ecom%2Fwopi%2Ffiles%2F5CFB00FC9CC244D0%211243&access_token=4w4mI63jxGDtoqgA5dcovF7efwQIlp_HJswvEEmce1nv-mFhYP8liD6w-hO02gQR_xXvT_RZs36TUGRf4NQGRYqJWYayLrE-JuOlJKi_he8l9eEA9CyaVuTdrEn6kkbBkTa8zEPb_2xjYxYTw_PanlzSL_hm924nfnl5rkStp0jSECaKBtR2qamX2R2ptwqdiF8La2S8PBvWoAM4bv5MKeFW35SHEUq5opf1o9O2CWGK4Agv0xZaTTYGZPn2yoddjH9xhYNNQmTp-OhQPpWuRA0h71FGSjop-QiQ2Uv0zmF-JvzjsV9UFNo6pKmaqoY3b7Nb_IYkDs9UhDc0SLorvdWYupupxW5ztI0hLaGXFgJfxP304PaP5AFfk8juf5WRy-0YbvnX5WTcFy3KnaU2n2JoUkpaWGyhNBYVLKObfq9KV1KT2JM2oKcHdVDc-PZVjDSfHbIQjkilhiscCGDcftLH8jx-Oa33hIDssGaHh4nnscZkCsiVdop_BTLsA3mYq5&access_token_ttl=1704636333195&type=downloadpdfwithoutcomments&rndm=5bfeb056-f0c5-4bdf-b107-43dafea80440"; // Replace with the actual path to your resume file
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "tayeb_hossan_resume.pdf"; // You can customize the downloaded file name
@@ -26,7 +26,9 @@ const Banner = () => {
         <section className="font-semibold flex flex-col gap-2 sm:gap-6 items-center justify-center text-center">
           <h4 className="text-lg text-[#0e0e0e9c]">Hey, This is</h4>
           <h2 className="text-3xl sm:text-5xl">Tayeb Hossan</h2>
-          <h3 className="text-2xl sm:text-3xl text-[#0e0e0e9c]">Frontend Developer</h3>
+          <h3 className="text-2xl sm:text-3xl text-[#0e0e0e9c]">
+            Frontend Developer
+          </h3>
           <section className="flex gap-4">
             <button
               onClick={handleDownload}
