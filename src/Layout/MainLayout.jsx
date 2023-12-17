@@ -4,7 +4,6 @@ import Contact from "../Component/Contact/Contact";
 import Experience from "../Component/Experience/Experience";
 import Footers from "../Component/Footer/Footer";
 import NavBer1 from "../Component/Navber/NavBer1";
-
 import Projects from "../Component/Projects/Projects";
 
 const MainLayout = () => {
