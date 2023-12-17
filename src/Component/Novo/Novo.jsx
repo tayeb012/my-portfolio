@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { FaRegWindowClose } from "react-icons/fa";
+import { IoReorderThreeOutline } from "react-icons/io5";
 
 const Novo = () => {
   const [clops, setClops] = useState(false);
