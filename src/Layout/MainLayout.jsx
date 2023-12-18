@@ -1,6 +1,7 @@
 import About from "../Component/About/About";
 import Banner from "../Component/Banner/Banner";
 import Contact from "../Component/Contact/Contact";
+import Education from "../Component/Education/Education";
 import Experience from "../Component/Experience/Experience";
 import Footers from "../Component/Footer/Footer";
 import Novo from "../Component/Novo/Novo";
@@ -15,6 +16,7 @@ const MainLayout = () => {
       <Experience></Experience>
       <Projects></Projects>
       <Contact></Contact>
+      <Education></Education>
       <Footers></Footers>
     </div>
   );
