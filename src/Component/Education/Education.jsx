@@ -40,7 +40,7 @@ const Education = () => {
             {/* row 3 */}
             <tr className="bg-base-200">
               <th>(2nd Year)</th>
-              <td>Honours</td>
+              <td>BBA</td>
               <td>National university of Bangladesh</td>
               <td>Gazipur</td>
               <td>Accounting</td>
