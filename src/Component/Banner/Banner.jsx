@@ -6,7 +6,7 @@ const Banner = () => {
 
   const handleDownload = () => {
     const resumeUrl =
-      "https://word-edit.officeapps.live.com/we/WordViewer/request.pdf?WOPIsrc=https%3A%2F%2Fwopi%2Eonedrive%2Ecom%2Fwopi%2Ffiles%2F5CFB00FC9CC244D0%211243&access_token=4wpNMqBJ02lk9kilCVvrzLsHak_CAMUzjYTB3OfjXuM028dlx4dRdDefCFt9D4qkIGVLY6jQiBSYV0IYJE8kr-7SJUhi3pVrYqn1HO_TxYgGX-aBdl9fKi4UMX67ZrY2H1S74Rd1L2lnChuaJl65Yff_fcZMdZ71j3EpW-_6W2b-mzwvY3n2v-xwawxKqaMyyWmXImhAp1YYfSamyHwz0OMTnC-z0oOg3OhOhDIbrfdgmAaoARNrQc_E-UePzwNcTApujaKz8QRDEpzcCvdWS-I7G8fT6nHUlEFetYbHvUY2BVripbOmKENwa4j15nXUQdr2uUFe0RIwgCF43-cZ9oDbGcAg5lVpSm44DM6jpRXTN0zmeKejbD8Vzfzpq1qTGG_vqzbFkyQpAFgi9BtTyn2EirJMhnWqQ0PueWLaSjSqse01IKiMpKchh_LDLuI95LCn25qVcK4nekT_GQUQ-K28-TQv9nS8mCOFN3k6sawNjXxW-400eK5XvS4MTs_GUi&access_token_ttl=1704872516953&type=downloadpdfwithoutcomments&rndm=5fe66898-15e5-4cf4-9097-5d13f8a867c1"; // Replace with the actual path to your resume file
+      "https://word-edit.officeapps.live.com/we/WordViewer/request.pdf?WOPIsrc=https%3A%2F%2Fwopi%2Eonedrive%2Ecom%2Fwopi%2Ffiles%2F5CFB00FC9CC244D0%211243&access_token=4wZDpOlkAsVaxaXKfN02G0PI_wR_3rMiCkm9LEtON19uOrmtzELypES-BFccUMKN_KiVz-2yvIdmWOBX_9G6er2ZNpwo7xIKTNGzLxCwDULPqMqSvPqCnRs40u4uUn0MAKRRlqTjLQD_8YfEG1D7xoqa7mhXvja9Sk8sWcloZEd3KOQYqGacxGhoNCRX69oYlLiRnEtNRGx5LnTKQ2Y-G5eTFFVAjaDaA9pa2KAZNv8HGTaKUcVGX06o3lchVoLdSl9V0wzMbWMhLxwWcvipfRoFGTIWgDFfI6rz-sZavZQHZKCDDdxtgQKDha2MVIuZXXWYr7F0DxQW1-3kUJZNDm51foMooSaBGmjHihq-8Rmgd2sSreIoTFEOoWQiPWMyInf3OxR09pyk_uUlMqPsIi7RrqRm4SoSDgVApzwlHkqd4pgUWL3dek54zBtcDBIy_D5h5GC-xknVtJpfWDVWmOouee4z4IuO5FJc4QdTapjMTfimKFuGqZ__xeMqICvetp&access_token_ttl=1704908932794&type=printpdf&rndm=a8d7a332-a2cf-45e1-847a-8b2d2be6d38b&useNamedAction=1"; // Replace with the actual path to your resume file
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "tayeb_hossan_resume.pdf"; // You can customize the downloaded file name
@@ -27,7 +27,7 @@ const Banner = () => {
           <h4 className="text-lg text-[#0e0e0e9c]">Hey, This is</h4>
           <h2 className="text-3xl sm:text-5xl">Tayeb Hossan</h2>
           <h3 className="text-2xl sm:text-3xl text-[#0e0e0e9c]">
-            Frontend Developer
+            Junior Web Developer
           </h3>
           <section className="flex gap-4">
             <button
