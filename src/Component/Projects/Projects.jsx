@@ -67,7 +67,7 @@ const Projects = () => {
               <FaGithub /> View Code
             </Link>
             <Link
-              to={`https://savorsphere-eatery.surge.sh`}
+              to={`https://restaurent-managment-client.netlify.app`}
               target="_blank"
               className="btn"
             >
